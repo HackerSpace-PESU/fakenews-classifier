@@ -12,3 +12,21 @@ Sklearn \
 Joblib \
 Pickle \
 BeautifulSoup 
+
+#### Using the model
+Clone this repository
+'''
+git clone https://github.com/ViharDevalla/fakenews-classifier.git
+'''
+Install the requirement files from pip or similar
+'''python
+pip3 install -r requirements.txt
+'''
+Run app.py
+'''
+python3 app.py
+'''
+If ngrok doesnt work,comment 
+'''
+#run_with_ngrok(app)
+'''
