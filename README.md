@@ -26,7 +26,7 @@ Run app.py
 ```
 python3 app.py
 ```
-If ngrok doesnt work,comment 
+If ngrok doesnt work, comment it will run in localhost instead
 ```
 #run_with_ngrok(app)
 ```
