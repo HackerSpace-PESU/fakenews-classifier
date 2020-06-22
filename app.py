@@ -1,4 +1,5 @@
 from flask import Flask,request, url_for, redirect, render_template, jsonify
+from flask_ngrok import run_with_ngrok
 import pickle
 import requests
 import numpy as np
@@ -87,4 +88,4 @@ def predict_api():
     return jsonify(output)
 '''
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
