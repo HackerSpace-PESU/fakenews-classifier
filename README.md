@@ -3,7 +3,7 @@ News articles influences people's ideas and opinion on the certain topics.Mislea
 This website uses an ML model to understand news articles and tries to predict if the given article is fake or not.
 
 This model classifies news articles as fake or not using TFIDF and Logistic Regression and had a 95% accuracy when classifying dataset from kaggle.com/fake-news.
-More information about the model can be found from the Model.ipynb file.
+More information about the model can be found from the ***FinalProject.ipynb*** file.
 
 ##### DISCLAIMER : This model is not perfect but could aide in checking reliability of an article.
 #### Dependencies
