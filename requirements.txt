@@ -12,3 +12,4 @@ pickle-mixin==1.0.2
 bs4==0.0.1
 joblib==0.15.1
 regex==2020.6.8
+flask-ngrok==0.0.25
