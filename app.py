@@ -61,7 +61,7 @@ def urlsearch(url):
 #print(logreg.predict(test1))
 
 app = Flask(__name__)
-
+#run_with_ngrok(app)         #Uncomment for ngrok hosting
 
 @app.route('/')
 def home():
