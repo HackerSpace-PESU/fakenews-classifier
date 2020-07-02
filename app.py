@@ -12,7 +12,7 @@ import joblib
 from bs4 import BeautifulSoup
 import re
 
-logrecsaved = joblib.load('logregmodel4.pkl')
+logrecsaved = joblib.load('dt.pkl')
 tfidf_vectorizer = pickle.load(open('tfidf4.pkl','rb'))
 
 def articlecheck(article):
